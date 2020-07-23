@@ -15,6 +15,16 @@
 		"oAP": "/_build/_build",
 		"oF": 0
 		},
+	"/app/components/footer.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_build/components/footer.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/app/components/head.pug": {
 		"cB": 1,
 		"cOD": 1,
@@ -22,6 +32,16 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/_build/components/head.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/app/components/nav.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_build/components/nav.html",
 		"oF": 0,
 		"oS": 0
 		},

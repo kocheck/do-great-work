@@ -6,6 +6,12 @@ html
         include components/head.pug
 
     body
-        h1 Hello World
-        a(href="pages/portfolio") Portfolio
-        a(href="pages/stylesPlayground") Styles
+        include components/nav.pug
+        main
+            .hero--card
+                h1 Kyle is a dad, product designer, front-end pixel.
+                p Currently a senior product designer, at Roadtrippers 🗺. Freelance designer and coffee nerd. Feel free to reach out! Lets talk about pixels, maps, or coffee ✌️
+                .hero--cta
+                    a(class='primary--button' href="pages/portfolio") 🎨 View Portfolio
+                    a(href="pages/portfolio") ⚡️ Whats Happening Now
+        include components/footer.pug
