@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "32186",
 "files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_build/.gitignore",
+		"oF": 1
+		},
 	"/_build": {
 		"ft": 65536,
 		"oA": 1,
@@ -115,6 +123,19 @@
 		"oAP": "/_build/pages/thoughts/index.html",
 		"oF": 0,
 		"oS": 0
+		},
+	"/app/styles/atoms/_typography.sass": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/_build/styles/atoms/source.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
 		},
 	"/app/styles/css--source.sass": {
 		"aP": 1,
@@ -258,7 +279,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ariel",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 617168497.10901904
+	"lastBuiltDate": 617309611.98261905
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
