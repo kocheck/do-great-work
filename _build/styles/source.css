@@ -316,6 +316,37 @@ main {
   margin-right: 1rem;
 }
 
+.hero--lightbright svg {
+  position: absolute;
+  right: -22vw;
+  top: 10rem;
+  min-height: 20ch;
+  height: 50ch;
+  max-height: 80ch;
+  z-index: -1;
+  fill: #181b25;
+  transition: all 0.3s ease;
+}
+.hero--lightbright svg .circle--selector {
+  border: 1px solid #31374d;
+}
+
+.default #f13, .default #f14, .default #f15, .default #f18, .default #f19, .default #f20, .default #g13, .default #g14, .default #g15, .default #g18, .default #g19, .default #g20, .default #h13, .default #h14, .default #h15, .default #h18, .default #h19, .default #h20, .default #k11, .default #k12, .default #k21, .default #k22, .default #l11, .default #l12, .default #l13, .default #l20, .default #l21, .default #l22, .default #m12, .default #m13, .default #m14, .default #m15, .default #m16, .default #m17, .default #m18, .default #m19, .default #m20, .default #m21, .default #n15, .default #n16, .default #n17, .default #n18 {
+  -webkit-filter: url(#blur);
+          filter: url(#blur);
+  -webkit-filter: url(#dropShadow);
+          filter: url(#dropShadow);
+  fill: #fdfdfd;
+}
+
+.portfolio #b22, .portfolio #c20, .portfolio #c21, .portfolio #c22, .portfolio #c23, .portfolio #d19, .portfolio #d21, .portfolio #d22, .portfolio #d23, .portfolio #e18, .portfolio #e20, .portfolio #e21, .portfolio #e22, .portfolio #e23, .portfolio #f17, .portfolio #f19, .portfolio #f20, .portfolio #f21, .portfolio #f22, .portfolio #g16, .portfolio #g18, .portfolio #g19, .portfolio #g20, .portfolio #g21, .portfolio #h15, .portfolio #h16, .portfolio #h17, .portfolio #h18, .portfolio #h19, .portfolio #h20, .portfolio #i15, .portfolio #i16, .portfolio #i17, .portfolio #i18, .portfolio #i19, .portfolio #j14, .portfolio #j15, .portfolio #j16, .portfolio #j17, .portfolio #j18, .portfolio #k14, .portfolio #k15, .portfolio #k16, .portfolio #l14, .portfolio #l15, .portfolio #m11, .portfolio #m12, .portfolio #m13, .portfolio #n10, .portfolio #n11, .portfolio #n12, .portfolio #n13, .portfolio #o10, .portfolio #o11, .portfolio #o13, .portfolio #p09, .portfolio #p10, .portfolio #p11, .portfolio #p12 {
+  -webkit-filter: url(#blur);
+          filter: url(#blur);
+  -webkit-filter: url(#dropShadow);
+          filter: url(#dropShadow);
+  fill: #fdfdfd;
+}
+
 nav ul {
   display: flex;
   list-style: none;

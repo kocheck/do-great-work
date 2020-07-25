@@ -9,3 +9,26 @@
     margin-top: 2rem
     a
         margin-right: 1rem
+.hero--lightbright
+    svg
+        position: absolute
+        right: -22vw
+        top: 10rem
+        min-height: 20ch
+        height: 50ch
+        max-height: 80ch
+        z-index: -1
+        fill: $color-card-base
+        transition: $transition-all
+        .circle--selector
+            border: 1px solid $color-light-base
+
+// ======================================
+// CSS Styles to swap around with js for the lightbright
+// ======================================
+.default
+    #f13, #f14, #f15, #f18, #f19, #f20, #g13, #g14, #g15, #g18, #g19, #g20, #h13, #h14, #h15, #h18, #h19, #h20, #k11, #k12, #k21, #k22, #l11, #l12, #l13, #l20, #l21, #l22, #m12, #m13, #m14, #m15, #m16, #m17, #m18, #m19, #m20, #m21, #n15, #n16, #n17, #n18
+        @include lightOn
+.portfolio
+    #b22, #c20, #c21, #c22, #c23, #d19, #d21, #d22, #d23, #e18, #e20, #e21, #e22, #e23, #f17, #f19, #f20, #f21,#f22, #g16, #g18, #g19, #g20, #g21, #h15, #h16, #h17, #h18, #h19, #h20, #i15, #i16, #i17, #i18, #i19, #j14, #j15, #j16, #j17, #j18, #k14, #k15, #k16, #l14, #l15, #m11, #m12, #m13, #n10, #n11, #n12, #n13, #o10, #o11,  #o13, #p09, #p10, #p11, #p12
+        @include lightOn

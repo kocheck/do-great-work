@@ -1,2 +1,2 @@
-
+const svgArt=document.querySelector(".default"),buttonPortfolio=document.querySelector(".js--portfolio");buttonPortfolio.addEventListener("mouseenter",()=>{console.log("test"),"default"==svgArt.classList&&svgArt.classList.toggle("portfolio")});
 //# sourceMappingURL=source-min.js.map

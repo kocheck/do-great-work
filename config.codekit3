@@ -43,6 +43,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/app/components/lightbright.pug": {
+		"cB": 1,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_build/components/lightbright.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/app/components/nav.pug": {
 		"cB": 1,
 		"cOD": 1,
