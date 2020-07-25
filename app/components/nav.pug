@@ -1,14 +1,18 @@
 //- Located in the components folder
-nav
-    a(href="/") Kyle Kochanek
-    ul
+nav(aria-label="Main Navigation")
+    ul(class="nav--wrapper")
         li
-            a(href="pages/portfolio") 🎨 View Portfolio
-        li
-            a(href="/") 🧠  Read Thoughts
-        li
-            a(href="/") 📱 Contact
-        li
-            a(href="/") ⚡️ Now
-        li
-            a(href="pages/stylesPlayground") Styles
+            a(class="button button--sec avi" href="/")
+                img(src="/img/kyle.jpg" alt="emoji kyle sitting at a computer")
+                p Kyle Kochanek
+        ul(class="nav--wrapper--sitelinks")
+            li
+                a(class="button button--sec" href="pages/portfolio") 🎨 View Portfolio
+            li
+                a(class="button button--sec" href="/") 🧠  Read Thoughts
+            li
+                a(class="button button--sec" href="/") 📱 Contact
+            li
+                a(class="button button--sec" href="/") ⚡️ Now
+            li
+                a(class="button button--sec" href="pages/stylesPlayground") Styles

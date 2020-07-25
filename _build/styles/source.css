@@ -1,19 +1,4 @@
-h4 {
-  font-size: 1.333rem;
-}
-
-h3 {
-  font-size: 1.776889rem;
-}
-
-h2 {
-  font-size: 2.368593037rem;
-}
-
-h1 {
-  font-size: 3.1573345183rem;
-}
-
+@import url("https://rsms.me/inter/inter.css");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -206,18 +191,80 @@ p, li, h1, h2, h3, h4 {
   -webkit-hyphens: auto;
       -ms-hyphens: auto;
           hyphens: auto;
+  margin-top: 0;
+}
+
+h4 {
+  font-size: min(max(1rem, 4vw), 1.414rem);
+  line-height: calc(2px + 2ex + 2px);
+  margin-bottom: 0.65em;
+}
+
+h3 {
+  font-size: min(max(1rem, 4vw), 1.999396rem);
+  line-height: calc(2px + 2ex + 2px);
+  margin-bottom: 0.65em;
+}
+
+h2 {
+  font-size: min(max(1rem, 4vw), 2.827145944rem);
+  line-height: calc(2px + 2ex + 2px);
+  margin-bottom: 0.65em;
+}
+
+h1 {
+  font-size: min(max(1rem, 4vw), 3.9975843648rem);
+  line-height: calc(2px + 2ex + 2px);
+  margin-bottom: 0.65em;
+}
+
+.secondary--text {
+  color: rgba(225, 231, 251, 0.56);
+}
+.secondary--text:hover {
+  color: #ed6b6b;
+}
+
+.button {
+  background-color: #fdfdfd;
+  padding: 1rem 1rem;
+  border-radius: 0.25rem;
+  color: #14161f;
+  font-weight: 600;
+  font-style: normal;
+}
+.button:hover {
+  background-color: #31374d;
+  color: #0085ff;
+}
+.button:focus {
+  background-color: #6dc682;
+  color: #14161f;
+}
+
+.button--sec {
+  background-color: inherit;
+  color: #fdfdfd;
+}
+.button--sec:hover {
+  color: #fdfdfd;
 }
 
 html {
   background-color: #14161f;
   color: #fdfdfd;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 html body {
   font-size: 1rem;
   line-height: 1.5;
 }
 
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+}
 a, p > a {
   color: #0085ff;
   text-decoration: none;
@@ -245,19 +292,69 @@ main {
 .main--hero {
   max-width: 100ch;
   width: 100%;
+  margin: auto;
+}
+.main--hero h1 {
+  -webkit-hyphens: none;
+      -ms-hyphens: none;
+          hyphens: none;
 }
 
 .hero--card {
-  max-width: 60ch;
-  background-color: #181b25;
+  max-width: 64ch;
+  background: linear-gradient(90deg, #181B25 0%, #202536 200%);
   padding: 3rem 2rem 3rem 2rem;
+  border: 1px solid #31374d;
   border-radius: 0.5rem;
   box-shadow: 0px 0.75rem 1.5rem -0.5rem rgba(0, 0, 0, 0.72);
+}
+
+.hero--cta {
+  margin-top: 2rem;
+}
+.hero--cta a {
+  margin-right: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+nav .nav--wrapper {
+  padding: 0 1rem;
+}
+nav .nav--wrapper--sitelinks {
+  margin: auto 0;
+}
+nav .nav--wrapper--sitelinks li {
+  padding: 0 0.2rem;
+}
+nav .nav--wrapper--sitelinks li .button {
+  padding: 1rem 0.75rem;
+}
+
+.avi {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem 1rem 1rem;
+}
+.avi img {
+  border-radius: 0.5rem;
+  max-width: 3rem;
+  box-shadow: 0px 0.75rem 1.5rem -0.5rem rgba(0, 0, 0, 0.72);
+}
+.avi p {
+  padding-left: 0.75rem;
+  margin: 0;
 }
 
 footer {
   text-align: center;
   padding-bottom: 1rem;
+}
+footer p {
+  color: rgba(225, 231, 251, 0.56);
 }
 
 .footer--wrapper {

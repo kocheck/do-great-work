@@ -53,6 +53,17 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/app/img/kyle.jpg": {
+		"ft": 16384,
+		"iS": 3758,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_build/img/kyle.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/app/index.pug": {
 		"cB": 1,
 		"cOD": 1,
@@ -123,6 +134,19 @@
 		"oAP": "/_build/pages/thoughts/index.html",
 		"oF": 0,
 		"oS": 0
+		},
+	"/app/styles/atoms/_buttons.sass": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/_build/styles/atoms/source.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
 		},
 	"/app/styles/atoms/_typography.sass": {
 		"aP": 1,
@@ -216,6 +240,19 @@
 		"sct": 0
 		},
 	"/app/styles/layout/_layout.sass": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"ec": 1,
+		"ft": 2,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/_build/styles/layout/source.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/app/styles/layout/_nav.sass": {
 		"aP": 1,
 		"bl": 1,
 		"dP": 10,

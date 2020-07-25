@@ -2,28 +2,32 @@
 <html>
   <head>
     <title>Do Great Work</title>
-    <link rel="stylesheet" href="/styles/source.css?ckcachebust=0309e19ed78c23ce407fecdb8e168bea">
-    <script src="/js/source-min.js?ckcachebust=2ac1baf100a404e11edbc9a7a5f115ad"></script>
+    <link rel="stylesheet" href="/styles/source.css?ckcachebust=2d8143005a97fe9e307b9f5801b3a733">
+    <script src="/js/source-min.js?ckcachebust=ffe6ec3f3bf5a14b6ece6926344379c7"></script>
   </head>
   <body>
-    <nav><a href="/">Kyle Kochanek</a>
-      <ul>
-        <li><a href="pages/portfolio">🎨 View Portfolio</a></li>
-        <li><a href="/">🧠  Read Thoughts</a></li>
-        <li><a href="/">📱 Contact</a></li>
-        <li><a href="/">⚡️ Now</a></li>
-        <li><a href="pages/stylesPlayground">Styles</a></li>
+    <nav aria-label="Main Navigation">
+      <ul class="nav--wrapper">
+        <li><a class="button button--sec avi" href="/"><img src="/img/kyle.jpg" alt="emoji kyle sitting at a computer">
+            <p>Kyle Kochanek</p></a></li>
+        <ul class="nav--wrapper--sitelinks">
+          <li><a class="button button--sec" href="pages/portfolio">🎨 View Portfolio</a></li>
+          <li><a class="button button--sec" href="/">🧠  Read Thoughts</a></li>
+          <li><a class="button button--sec" href="/">📱 Contact</a></li>
+          <li><a class="button button--sec" href="/">⚡️ Now</a></li>
+          <li><a class="button button--sec" href="pages/stylesPlayground">Styles</a></li>
+        </ul>
       </ul>
     </nav>
     <main class="main--hero">
       <div class="hero--card">
         <h1>Kyle is a dad, product designer, front-end pixel.</h1><p> <a href="#">Currently</a> a senior product designer, at Roadtrippers 🗺. Freelance designer and coffee nerd. Feel free to reach out! Lets talk about pixels, maps, or coffee ✌️</p>
-        <div class="hero--cta"><a class="primary--button" href="pages/portfolio">🎨 View Portfolio</a><a href="pages/portfolio">⚡️ Whats Happening Now</a></div>
+        <div class="hero--cta"><a class="button" href="pages/portfolio">🎨 View Portfolio</a><a class="button button--sec" href="pages/portfolio">⚡️ Whats Happening Now</a></div>
       </div>
     </main>
     <footer>
       <div class="footer--wrapper">
-        <script>new Date().getFullYear()>2010&&document.write("© "+new Date().getFullYear() +", Kyle Kochanek");</script>
+        <script>new Date().getFullYear()>2010&&document.write("<p>© "+new Date().getFullYear() +", Kyle Kochanek. <span class='secondary--text'>Built with ❤️ & caffeine.</span></p>");</script>
       </div>
     </footer>
   </body>
