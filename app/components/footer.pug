@@ -1,4 +1,17 @@
 footer
+    div
+        // Js to handel that Light bright ❤️
+        script.
+            let svgArt = document.querySelector('.default')
+            let buttonPortfolio = document.getElementById('js--portfolio')
+            if(buttonPortfolio){
+                buttonPortfolio.addEventListener('mouseenter', event => {
+                    svgArt.classList.replace('default', 'portfolio');
+                });
+                buttonPortfolio.addEventListener('mouseout', event => {
+                    svgArt.classList.replace('portfolio', 'default');
+                });
+            }
     .footer--wrapper
         script.
             new Date().getFullYear()>2010&&document.write("<p>© "+new Date().getFullYear() +", Kyle Kochanek. <span class='secondary--text'>Built with ❤️ & caffeine.</span></p>");

@@ -2,16 +2,16 @@
 <html>
   <head>
     <title>Do Great Work</title>
-    <link rel="stylesheet" href="/styles/source.css?ckcachebust=be2743b090443af56dd2a9bb362f6278">
-    <script src="/js/source-min.js?ckcachebust=375031cb4fcbede074ef047e776a2c6a"></script>
+    <link rel="stylesheet" href="/styles/source.css?ckcachebust=e588676f5f763e13d92e852e10904c7e">
+    <script src="/js/source-min.js?ckcachebust=804a63650a2f3be740ce36d559d96964"></script>
   </head>
-  <body>
+  <body class="hero--body">
     <nav aria-label="Main Navigation">
       <ul class="nav--wrapper">
         <li><a class="button button--sec avi" href="/"><img src="/img/kyle.jpg" alt="emoji kyle sitting at a computer">
             <p>Kyle Kochanek</p></a></li>
         <ul class="nav--wrapper--sitelinks">
-          <li><a class="button button--sec js--portfolio" href="pages/portfolio">🎨 View Portfolio</a></li>
+          <li><a class="button button--sec" id="js--portfolio" href="pages/portfolio">🎨 View Portfolio</a></li>
           <li><a class="button button--sec" href="/">🧠  Read Thoughts</a></li>
           <li><a class="button button--sec" href="/">📱 Contact</a></li>
           <li><a class="button button--sec" href="/">⚡️ Now</a></li>
@@ -19,8 +19,7 @@
         </ul>
       </ul>
     </nav>
-    <main class="main--hero">
-      <div class="hero--lightbright"><svg class="default" viewBox="0 0 664 370" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div class="hero--lightbright"><svg class="default" viewBox="0 0 664 370" fill="none" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <filter id="dropShadow" x="-50%" y="-50%" width="200%" height="200%">
 <feGaussianBlur in="SourceGraphic" stdDeviation="3" />
@@ -644,13 +643,29 @@
 <circle class="circle--selector" id="r32" cx="657.5" cy="363.5" r="6.5" fill="#inherit"/>
 </g>
 </svg>
-      </div>
+    </div>
+    <main class="main--hero">
       <div class="hero--card">
         <h1>Kyle is a dad, product designer, front-end pixel.</h1><p> <a href="#">Currently</a> a senior product designer, at Roadtrippers 🗺. Freelance designer and coffee nerd. Feel free to reach out! Lets talk about pixels, maps, or coffee ✌️</p>
         <div class="hero--cta"><a class="button" href="pages/portfolio">🎨 View Portfolio</a><a class="button button--sec" href="pages/portfolio">⚡️ Whats Happening Now</a></div>
       </div>
     </main>
     <footer>
+      <div>
+        <!-- Js to handel that Light bright ❤️-->
+        <script>
+          let svgArt = document.querySelector('.default')
+          let buttonPortfolio = document.getElementById('js--portfolio')
+          if(buttonPortfolio){
+              buttonPortfolio.addEventListener('mouseenter', event => {
+                  svgArt.classList.replace('default', 'portfolio');
+              });
+              buttonPortfolio.addEventListener('mouseout', event => {
+                  svgArt.classList.replace('portfolio', 'default');
+              });
+          }
+        </script>
+      </div>
       <div class="footer--wrapper">
         <script>new Date().getFullYear()>2010&&document.write("<p>© "+new Date().getFullYear() +", Kyle Kochanek. <span class='secondary--text'>Built with ❤️ & caffeine.</span></p>");</script>
       </div>
