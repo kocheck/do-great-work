@@ -1,19 +1,24 @@
-// js--portfolio
-// default
+// Varibales
+let svgArt = document.querySelector('.default')
+let buttonPortfolio = document.getElementById('js--portfolio')
 
+// Transition States
+const portfolioState = 'portfolio'
 
-// menuButton.addEventListener('click', () => {
-//   if (navigation.classList == 'side-quests') {
-//     navigation.classList.replace('side-quests', 'side-quests-open');
-//     closeIcon.classList.toggle('hidden');
-//     openIcon.classList.toggle('hidden');
-//     headerDiv.classList.toggle('header-open');
-//     menuButton.classList.toggle('menu-open');
-//   } else {
-//     navigation.classList.replace('side-quests-open', 'side-quests');
-//     closeIcon.classList.toggle('hidden');
-//     openIcon.classList.toggle('hidden');
-//     headerDiv.classList.toggle('header-open');
-//     menuButton.classList.toggle('menu-open');
-//   }
-// });
+// Functions, working at that functional programing 💪
+const transition = function(targetElement, svgCanvas, transition){
+    targetElement.addEventListener('mouseenter', () => {
+        svgCanvas.classList.replace('default', transition);
+    });
+    targetElement.addEventListener('mouseout', () => {
+        svgCanvas.classList.replace(transition, 'default');
+    });
+}
+
+// =============
+// Portfolio Hover
+transition(buttonPortfolio, svgArt, portfolioState);
+
+//
+
+// =======================================

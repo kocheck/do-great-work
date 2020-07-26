@@ -28,6 +28,21 @@
 // ======================================
 // CSS Styles to swap around with js for the lightbright
 // ======================================
+// Transition clear
+.transition-enter
+    #c05, #d25, #j03, #j13, #k11, #k12, #n26, #o24, #p07, #p30
+        transition: $transition-all
+        @include lightOn
+
+.transition-clear
+    // Empty styles
+
+.transition-exit
+    #c16, #f11, #f15, #f18, #f22, #f25, #h11, #h16, #h21, #i14, #i18, #i21, #j08, #k12, #k24, #l18, #l19, #m13, #n17, #o15, #o16, #p15
+        transition: $transition-all
+        @include lightOn
+
+// ==============
 .default
     #f13, #f14, #f15, #f18, #f19, #f20, #g13, #g14, #g15, #g18, #g19, #g20, #h13, #h14, #h15, #h18, #h19, #h20, #k11, #k12, #k21, #k22, #l11, #l12, #l13, #l20, #l21, #l22, #m12, #m13, #m14, #m15, #m16, #m17, #m18, #m19, #m20, #m21, #n15, #n16, #n17, #n18
         transition: $transition-all

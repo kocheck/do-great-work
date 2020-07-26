@@ -1,2 +1,2 @@
-
+let svgArt=document.querySelector(".default"),buttonPortfolio=document.getElementById("js--portfolio");const portfolioState="portfolio",transition=function(t,o,e){t.addEventListener("mouseenter",()=>{o.classList.replace("default",e)}),t.addEventListener("mouseout",()=>{o.classList.replace(e,"default")})};transition(buttonPortfolio,svgArt,"portfolio");
 //# sourceMappingURL=source-min.js.map

@@ -335,6 +335,24 @@ main {
   border: 1px solid #31374d;
 }
 
+.transition-enter #c05, .transition-enter #d25, .transition-enter #j03, .transition-enter #j13, .transition-enter #k11, .transition-enter #k12, .transition-enter #n26, .transition-enter #o24, .transition-enter #p07, .transition-enter #p30 {
+  transition: all 0.3s ease;
+  -webkit-filter: url(#blur);
+          filter: url(#blur);
+  -webkit-filter: url(#dropShadow);
+          filter: url(#dropShadow);
+  fill: #fdfdfd;
+}
+
+.transition-exit #c16, .transition-exit #f11, .transition-exit #f15, .transition-exit #f18, .transition-exit #f22, .transition-exit #f25, .transition-exit #h11, .transition-exit #h16, .transition-exit #h21, .transition-exit #i14, .transition-exit #i18, .transition-exit #i21, .transition-exit #j08, .transition-exit #k12, .transition-exit #k24, .transition-exit #l18, .transition-exit #l19, .transition-exit #m13, .transition-exit #n17, .transition-exit #o15, .transition-exit #o16, .transition-exit #p15 {
+  transition: all 0.3s ease;
+  -webkit-filter: url(#blur);
+          filter: url(#blur);
+  -webkit-filter: url(#dropShadow);
+          filter: url(#dropShadow);
+  fill: #fdfdfd;
+}
+
 .default #f13, .default #f14, .default #f15, .default #f18, .default #f19, .default #f20, .default #g13, .default #g14, .default #g15, .default #g18, .default #g19, .default #g20, .default #h13, .default #h14, .default #h15, .default #h18, .default #h19, .default #h20, .default #k11, .default #k12, .default #k21, .default #k22, .default #l11, .default #l12, .default #l13, .default #l20, .default #l21, .default #l22, .default #m12, .default #m13, .default #m14, .default #m15, .default #m16, .default #m17, .default #m18, .default #m19, .default #m20, .default #m21, .default #n15, .default #n16, .default #n17, .default #n18 {
   transition: all 0.3s ease;
   -webkit-filter: url(#blur);
