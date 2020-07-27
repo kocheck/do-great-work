@@ -1,0 +1,425 @@
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden], template {
+  display: none;
+}
+
+a {
+  background: transparent;
+}
+
+p > a {
+  color: black;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+pre {
+  overflow: auto;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button,
+html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled], html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+p, li, h1, h2, h3, h4 {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+  margin-top: 0;
+}
+
+h4 {
+  font-size: min(max(1rem, 4vw), 1.414rem);
+  line-height: calc(2px + 2ex + 2px);
+  margin-bottom: 0.65em;
+}
+
+h3 {
+  font-size: min(max(1rem, 4vw), 1.999396rem);
+  line-height: calc(2px + 2ex + 2px);
+  margin-bottom: 0.65em;
+}
+
+h2 {
+  font-size: min(max(1rem, 4vw), 2.827145944rem);
+  line-height: calc(2px + 2ex + 2px);
+  margin-bottom: 0.65em;
+}
+
+h1 {
+  font-size: min(max(1rem, 4vw), 3.9975843648rem);
+  line-height: calc(2px + 2ex + 2px);
+  margin-bottom: 0.65em;
+}
+
+.secondary--text {
+  color: rgba(225, 231, 251, 0.56);
+}
+.secondary--text:hover {
+  color: #ed6b6b;
+}
+
+.button {
+  background-color: #fdfdfd;
+  padding: 1rem 1rem;
+  border-radius: 0.25rem;
+  color: #14161f;
+  font-weight: 600;
+  font-style: normal;
+  transition: background-color 0.3s ease-in-out;
+}
+.button:hover {
+  background-color: #31374d;
+  color: #0085ff;
+}
+.button:focus {
+  background-color: #6dc682;
+  color: #14161f;
+}
+
+.button--sec {
+  background-color: inherit;
+  color: #fdfdfd;
+}
+.button--sec:hover {
+  color: #fdfdfd;
+}
+
+html {
+  background-color: #14161f;
+  color: #fdfdfd;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+html body {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+}
+a, p > a {
+  color: #0085ff;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+a:hover, p > a:hover {
+  color: #6dc682;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 80ch;
+}
+
+.main--hero {
+  max-width: 100ch;
+  width: 100%;
+  margin: auto;
+}
+.main--hero h1 {
+  -webkit-hyphens: none;
+      -ms-hyphens: none;
+          hyphens: none;
+}
+
+.hero--body {
+  overflow: hidden;
+}
+
+.hero--card {
+  max-width: 64ch;
+  background: linear-gradient(90deg, #181B25 0%, #202536 200%);
+  padding: 3rem 2rem 3rem 2rem;
+  border: 1px solid #31374d;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0.75rem 1.5rem -0.5rem rgba(0, 0, 0, 0.72);
+}
+
+.hero--cta {
+  margin-top: 3rem;
+}
+.hero--cta a {
+  margin-right: 1rem;
+}
+
+.hero--lightbright svg {
+  position: absolute;
+  right: -20ch;
+  top: 10rem;
+  min-height: 20ch;
+  height: 50ch;
+  max-height: 80ch;
+  z-index: -1;
+  fill: #181b25;
+  transition: all 0.3s ease;
+}
+.hero--lightbright svg .circle--selector {
+  border: 1px solid #31374d;
+}
+
+.transition-enter #c05, .transition-enter #d25, .transition-enter #j03, .transition-enter #j13, .transition-enter #k11, .transition-enter #k12, .transition-enter #n26, .transition-enter #o24, .transition-enter #p07, .transition-enter #p30 {
+  -webkit-filter: url(#blur);
+          filter: url(#blur);
+  -webkit-filter: url(#dropShadow);
+          filter: url(#dropShadow);
+  fill: #fdfdfd;
+}
+
+.transition-exit #c16, .transition-exit #f11, .transition-exit #f15, .transition-exit #f18, .transition-exit #f22, .transition-exit #f25, .transition-exit #h11, .transition-exit #h16, .transition-exit #h21, .transition-exit #i14, .transition-exit #i18, .transition-exit #i21, .transition-exit #j08, .transition-exit #k12, .transition-exit #k24, .transition-exit #l18, .transition-exit #l19, .transition-exit #m13, .transition-exit #n17, .transition-exit #o15, .transition-exit #o16, .transition-exit #p15 {
+  -webkit-filter: url(#blur);
+          filter: url(#blur);
+  -webkit-filter: url(#dropShadow);
+          filter: url(#dropShadow);
+  fill: #fdfdfd;
+}
+
+.default #f13, .default #f14, .default #f15, .default #f18, .default #f19, .default #f20, .default #g13, .default #g14, .default #g15, .default #g18, .default #g19, .default #g20, .default #h13, .default #h14, .default #h15, .default #h18, .default #h19, .default #h20, .default #k11, .default #k12, .default #k21, .default #k22, .default #l11, .default #l12, .default #l13, .default #l20, .default #l21, .default #l22, .default #m12, .default #m13, .default #m14, .default #m15, .default #m16, .default #m17, .default #m18, .default #m19, .default #m20, .default #m21, .default #n15, .default #n16, .default #n17, .default #n18 {
+  transition: all 0.3s ease;
+  -webkit-filter: url(#blur);
+          filter: url(#blur);
+  -webkit-filter: url(#dropShadow);
+          filter: url(#dropShadow);
+  fill: #fdfdfd;
+}
+
+.portfolio #b22, .portfolio #c20, .portfolio #c21, .portfolio #c22, .portfolio #c23, .portfolio #d19, .portfolio #d21, .portfolio #d22, .portfolio #d23, .portfolio #e18, .portfolio #e20, .portfolio #e21, .portfolio #e22, .portfolio #e23, .portfolio #f17, .portfolio #f19, .portfolio #f20, .portfolio #f21, .portfolio #f22, .portfolio #g16, .portfolio #g18, .portfolio #g19, .portfolio #g20, .portfolio #g21, .portfolio #h15, .portfolio #h16, .portfolio #h17, .portfolio #h18, .portfolio #h19, .portfolio #h20, .portfolio #i15, .portfolio #i16, .portfolio #i17, .portfolio #i18, .portfolio #i19, .portfolio #j14, .portfolio #j15, .portfolio #j16, .portfolio #j17, .portfolio #j18, .portfolio #k14, .portfolio #k15, .portfolio #k16, .portfolio #l14, .portfolio #l15, .portfolio #m11, .portfolio #m12, .portfolio #m13, .portfolio #n10, .portfolio #n11, .portfolio #n12, .portfolio #n13, .portfolio #o10, .portfolio #o11, .portfolio #o13, .portfolio #p09, .portfolio #p10, .portfolio #p11, .portfolio #p12 {
+  -webkit-filter: url(#blur);
+          filter: url(#blur);
+  -webkit-filter: url(#dropShadow);
+          filter: url(#dropShadow);
+  fill: #fdfdfd;
+}
+
+.thoughts #f14, .thoughts #f15, .thoughts #f16, .thoughts #f17, .thoughts #g12, .thoughts #g13, .thoughts #g14, .thoughts #g15, .thoughts #g16, .thoughts #g18, .thoughts #g19, .thoughts #h11, .thoughts #h12, .thoughts #h13, .thoughts #h14, .thoughts #h15, .thoughts #h16, .thoughts #h17, .thoughts #h18, .thoughts #h19, .thoughts #h20, .thoughts #i10, .thoughts #i11, .thoughts #i12, .thoughts #i13, .thoughts #i14, .thoughts #i15, .thoughts #i16, .thoughts #i17, .thoughts #i18, .thoughts #i19, .thoughts #i20, .thoughts #i21, .thoughts #j10, .thoughts #j11, .thoughts #j12, .thoughts #j15, .thoughts #j16, .thoughts #j17, .thoughts #j18, .thoughts #j19, .thoughts #j20, .thoughts #j21, .thoughts #k11, .thoughts #k13, .thoughts #k14, .thoughts #k15, .thoughts #k16, .thoughts #k17, .thoughts #k18, .thoughts #k19, .thoughts #k20, .thoughts #k21, .thoughts #l12, .thoughts #l13, .thoughts #l14, .thoughts #l15, .thoughts #l16, .thoughts #l19, .thoughts #l20, .thoughts #l21, .thoughts #m13, .thoughts #m14, .thoughts #m17, .thoughts #m18, .thoughts #m20, .thoughts #n18, .thoughts #n19 {
+  -webkit-filter: url(#blur);
+          filter: url(#blur);
+  -webkit-filter: url(#dropShadow);
+          filter: url(#dropShadow);
+  fill: #fdfdfd;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+nav .nav--wrapper {
+  padding: 0 1rem;
+}
+nav .nav--wrapper--sitelinks {
+  margin: auto 0;
+}
+nav .nav--wrapper--sitelinks li {
+  padding: 0 0.2rem;
+}
+nav .nav--wrapper--sitelinks li .button {
+  padding: 1rem 0.75rem;
+}
+
+.avi {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem 1rem 1rem;
+}
+.avi img {
+  border-radius: 0.5rem;
+  max-width: 3rem;
+  box-shadow: 0px 0.75rem 1.5rem -0.5rem rgba(0, 0, 0, 0.72);
+}
+.avi p {
+  padding-left: 0.75rem;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+footer p {
+  color: rgba(225, 231, 251, 0.56);
+}
+
+.footer--wrapper {
+  color: #fdfdfd;
+}
+
+/*# sourceMappingURL=source.css.map */

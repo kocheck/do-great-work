@@ -1,0 +1,19 @@
+
+html
+    background-color: $color-base
+    color: $color-white
+    font-family: $font-stack
+    body
+        font-size: $type-base-size
+        line-height: 1.5
+
+@supports (font-variation-settings: normal)
+    html
+        font-family: $font-stack
+
+a, p > a
+    color: $color-primary
+    text-decoration: none
+    transition: $transition-hover
+    &:hover
+        color: $color-success

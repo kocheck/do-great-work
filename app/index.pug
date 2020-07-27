@@ -1,0 +1,19 @@
+doctype html
+html
+    head
+        //- This comment should be invisible because it has been modifid
+        title Do Great Work
+        include components/head.pug
+
+    body(class='hero--body')
+        include components/nav.pug
+        include components/lightbright.pug
+        main.main--hero
+            section
+            .hero--card
+                h1 Kyle is a dad, product designer, front-end pixel.
+                <p> <a href="#">Currently</a> a senior product designer, at Roadtrippers 🗺. Freelance designer and coffee nerd. Feel free to reach out! Lets talk about pixels, maps, or coffee ✌️</p>
+                .hero--cta
+                    a(class='button' href="pages/portfolio") 🎨 View Portfolio
+                    a(class="button button--sec" href="pages/portfolio") ⚡️ Whats Happening Now
+        include components/footer.pug
