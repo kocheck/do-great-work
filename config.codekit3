@@ -9,14 +9,6 @@
 	],
 "creatorBuild": "32186",
 "files": {
-	"/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/_build/.gitignore",
-		"oF": 1
-		},
 	"/_build": {
 		"ft": 65536,
 		"oA": 1,
@@ -84,12 +76,23 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"/app/js/js--source.js": {
+	"/app/js/app.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
 		"oA": 0,
+		"oAP": "/_build/js/source-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/app/js/lightBright.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
 		"oAP": "/_build/js/source-min.js",
 		"oF": 0,
 		"sC": 3,
@@ -319,6 +322,14 @@
 "hooks": [
 	],
 "manualImportLinks": {
+	"/app/js/app.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "/app/js/lightBright.js",
+			"position": 0,
+			"type": 0
+			}
+		]
 	},
 "projectAttributes": {
 	"creationDate": 617163500.36778998,
@@ -326,7 +337,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ariel",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 617309611.98261905
+	"lastBuiltDate": 617507717.74519002
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
