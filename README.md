@@ -1,6 +1,4 @@
-# do-great-work
-
-Messy Code, Fun UI.
+# Messy Code, Fun UI.
 
 Tired of making life harder for myself with react, or some other javascript framework. Here is just a plain HTML, CSS, JS site. Well, rather the evolution of that site. I see this site as my hobby project to keep myself sane this year (2020). Here for the fun of messy code and delightful UI.
 
