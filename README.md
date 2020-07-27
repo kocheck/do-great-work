@@ -2,6 +2,8 @@
 
 Messy Code, Fun UI.
 
+Tired of making life harder for myself with react, or some other javascript framework. Here is just a plain HTML, CSS, JS site. Well, rather the evolution of that site. I see this site as my hobby project to keep myself sane this year (2020). Here for the fun of messy code and delightful UI.
+
 # Tech Stack Notes
 
 I need a place to keep all of my notes because I forget everything.
@@ -11,24 +13,3 @@ I need a place to keep all of my notes because I forget everything.
 I am using CodeKit to compile [PUG](https://pugjs.org/api/getting-started.html).
 
 [Reading this has been so helpful.](https://medium.com/jspoint/pug-js-to-make-your-life-easier-with-html-templates-9c62273626e0)
-
-```
-//- template.pug
-p #{name}'s Pug source code!
-const pug = require('pug');
-
-// Compile the source code
-const compiledFunction = pug.compileFile('template.pug');
-
-// Render a set of data
-console.log(compiledFunction({
-  name: 'Timothy'
-}));
-// "<p>Timothy's Pug source code!</p>"
-
-// Render another set of data
-console.log(compiledFunction({
-  name: 'Forbes'
-}));
-// "<p>Forbes's Pug source code!</p>"
-```
