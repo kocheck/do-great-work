@@ -44,3 +44,26 @@ $type-levels: 4, 3, 2, 1
 // =========================
 $transition-all: all 0.3s ease
 $transition-hover: background-color 0.3s ease-in-out
+
+// =========================
+// Media Query Var
+// =========================
+@mixin query($device)
+    @if $device == desktop-max
+        @media (max-width: 1024px)
+            @content
+    @else if $device == desktop-min
+        @media (min-width: 1024px)
+            @content
+    @else if $device == tablet-max
+        @media (max-width: 768px)
+            @content
+    @else if $device == tablet-min
+        @media (min-width: 768px)
+            @content
+    @else if $device == phone-max
+        @media (max-width: 320px)
+            @content
+    @else if $device == phone-min
+        @media (max-width: 320px)
+            @content
