@@ -98,6 +98,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/app/js/mobileMenu.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/_build/js/source-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/app/pages/contact/index.pug": {
 		"cB": 1,
 		"cOD": 1,
@@ -328,6 +339,12 @@
 			"linkedFileAbbreviatedPath": "/app/js/lightBright.js",
 			"position": 0,
 			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "/app/js/mobileMenu.js",
+			"position": 1,
+			"type": 0
 			}
 		]
 	},
@@ -337,7 +354,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-ariel",
 	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 617511122.35742402
+	"lastBuiltDate": 617602013.18362296
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

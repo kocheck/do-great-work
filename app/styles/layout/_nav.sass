@@ -1,34 +1,7 @@
 // =========================
 // Basic Layout
 // =========================
-nav
-    ul
-        list-style: none
-        display: flex
-        flex-direction: row
-        justify-content: space-between
-        padding: 0
-    .nav--wrapper
-        padding: 0 1rem
-    .nav--wrapper--sitelinks
-        margin: auto 0
-        flex-direction: column
-        li
-            padding: .5rem
-            .button
-                padding: 1rem 0.75rem
-                margin: .5rem 0
-                width: 100%
-                display: inline-block
-                @include query(tablet-min)
-                    display: inline
-                    padding: 1rem 1rem
-                    margin: .5rem .2rem
-        @include query(tablet-min)
-            margin: auto 1.75rem
-            flex-direction: row
-            li
-                padding: 0 .2rem
+// I know I need to convert all of these queries to be mobile first... that is a todo
 // .aviWrapper
 .avi
     display: flex
@@ -41,3 +14,47 @@ nav
     p
         padding-left: .75rem
         margin: 0
+
+nav
+    ul
+        list-style: none
+        display: flex
+        flex-direction: row
+        padding: 0
+        margin: auto 1rem
+        justify-content: space-between
+    .nav--wrapper
+        padding: 0 1rem
+        @include query(tablet-max)
+            padding-left: 0
+            // Adding this in because it looked unalined otherwise
+    .nav--wrapper--sitelinks
+        margin: auto 0
+        flex-direction: column
+        li
+            padding: .5rem
+            .button
+                padding: 1rem 0.75rem
+                margin: .5rem 0
+                width: 100%
+                display: block
+                text-align: right
+                @include query(tablet-min)
+                    text-align: center
+                    display: block
+                    padding: 1rem 1rem
+                    margin: .5rem .2rem
+            .hidden
+                display: none
+        @include query(tablet-min)
+            margin: auto 1.75rem
+            flex-direction: row
+            li
+                padding: 0 .2rem
+                .hidden
+                    display: inline-block
+#js--hamburger
+    display: none
+    @include query(tablet-max)
+        display: inline-block
+        cursor: pointer
