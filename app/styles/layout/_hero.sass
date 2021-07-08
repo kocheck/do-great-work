@@ -13,17 +13,20 @@
         margin-right: 1rem
 .hero--lightbright
     svg
-        position: absolute
-        right: -20ch
-        top: 10rem
-        min-height: 20ch
-        height: 50ch
-        max-height: 80ch
-        z-index: -1
-        fill: $color-card-base
-        transition: $transition-all
-        .circle--selector
-            border: 1px solid $color-light-base
+        display: none
+        @include query(tablet-min)
+            display: inline
+            position: absolute
+            right: -20ch
+            top: 10rem
+            min-height: 20ch
+            height: 50ch
+            max-height: 80ch
+            z-index: -1
+            fill: $color-card-base
+            transition: $transition-all
+            .circle--selector
+                border: 1px solid $color-light-base
 
 // ======================================
 // CSS Styles to swap around with js for the lightbright
